@@ -1,0 +1,60 @@
+/* Elements Selector */
+h1{
+    background-color: pink;
+    text-align: center;
+}
+
+p#paraOne, p#paraTwo{
+    background-color: cadetblue;
+
+    /* Fonts  */
+
+    font-size: large;
+    font-weight: 400;
+    font-style: italic;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 2;
+}
+
+/* ID Selector */
+#paraOne{
+    color: blue !important;
+}
+
+/* Class Selector */
+.articleOne{
+    background-color: rgb(137, 116, 157);
+
+}
+
+/* Group Selector */
+p, article{
+    text-align: center;
+}
+
+article.articleTwo{
+
+    /* Color  */
+    
+    /* named color  */
+    color: blue;
+
+}
+
+#paraFour{
+    /* RgB Color  */
+    color: rgb(69, 15, 15);
+    
+}
+
+#paraFive{
+
+    /* Hex Color  */
+    color: #da1b1b;
+}
+
+#paraSix{
+    /* hsl color  */
+    color: hsl(153, 84%, 39%);
+    background-color: black;
+}

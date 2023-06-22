@@ -1,5 +1,5 @@
 body {
-  padding: 20%;
+  padding: 10%;
   border-width: 2px;
   border-color: blue;
   border-style: solid;
@@ -59,4 +59,10 @@ h1 {
   border-width: 10px;
   border-style: solid;
   border-radius: 50%;
+}
+
+div.box{
+  height: 500px;
+  width: 500px;
+  background-color: black;
 }

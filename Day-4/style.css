@@ -1,0 +1,41 @@
+h1 {
+  color: blueviolet;
+  text-align: center;
+  text-decoration: solid;
+}
+ul {
+  /* list-style-type: none; */
+  list-style-position: inside;
+  /* list-style-image: url(favicon.png); */
+  display: inline-block;
+  margin-bottom: 40px;
+  line-break: strict;
+}
+li.ul {
+  display: inline;
+  /* list-style-type: circle; */
+  padding: 20px;
+
+  border-width: 1;
+  border-color: blue;
+  border-style: solid;
+  border-radius: 50%;
+  margin: 10px;
+}
+
+ol {
+  line-break: loose;
+  background-color: pink;
+  /* display: inline-block; */
+  text-indent: 10px;
+}
+
+li.ol {
+  list-style-type: lower-roman;
+  list-style-position: initial;
+}
+
+::marker{
+    list-style-image: url(favicon.png);
+    list-style-position: outside;
+}

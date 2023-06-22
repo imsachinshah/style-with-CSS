@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anchor Styling</title>
+
+    <style>
+        body{
+            padding: 20%;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        a{
+            /* color: brown; */
+            /* text-decoration: none; */
+
+        }
+
+        /* When setting the style for several link states, there are some order rules:
+
+        a:hover MUST come after a:link and a:visited
+        a:active MUST come after a:hover */
+
+        a:link{
+            color: blue;
+            text-decoration: none;
+            background-color: chartreuse;
+        }
+
+        a:visited{
+            color: green;
+            background-color: darkviolet;
+        }
+
+        a:hover{
+            color: blueviolet;
+            text-decoration: underline;
+            background-color: pink;
+        }
+
+        a:active{
+            color: black;
+            background-color: darkgreen;
+
+
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Anchor Styling</h1>
+
+    <p>
+        Hello, I am Sachin Shah here you contact <a href="https://linkedin.com/in/imsachinshah">Sachin Shah</a>.
+    </p>
+    <p>
+        Hello, I am on twitter <a href="https://twitter.com/imsachinshah">Sachin</a>.
+    </p>
+    <p>
+        Hello, I am other page link <a href="index.html">List Styling</a>.
+    </p>
+    <p>
+        Hello, I am all ready visited <a href="https://google.com/">Google</a>.
+    </p>
+</body>
+</html>

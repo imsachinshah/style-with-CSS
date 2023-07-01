@@ -1,0 +1,53 @@
+h1{
+    text-align: center;
+    color: rgb(106, 8, 197);
+}
+
+.container {
+  box-sizing: border-box;
+  border: 1px solid black;
+  padding: 20px;
+  position: relative;
+  height: 1500px;
+  background-color: pink;
+}
+
+img {
+  margin-left: 10px;
+}
+
+.img2 {
+  /* relative position maintained gap */
+
+  /* position: relative;
+            top: 40px;
+            left: 20px; */
+
+  /* for abs positon hme parent ko relative bnana pdta hai aur wo gap maintain nahi krta hai */
+  /* apn isko overlapping ke liye jayda tar use krte hain  */
+
+  /* position:absolute;
+            top: 200px;
+            right: 600px; */
+}
+
+.img4 {
+  /* fixed position me wo item thoughout the screen fixed hota hai at certain  */
+
+  position: fixed;
+  /* top: 70px;
+            left: 50rem; */
+}
+
+.img3 {
+  /* yhan item tab tak fixed rhta hai jab tak uska parent display pe hota hai  */
+
+  position: sticky;
+  top: 0px;
+}
+
+.box {
+  background-color: aqua;
+  height: 1000px;
+  border: 1px solid black;
+}

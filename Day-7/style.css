@@ -1,0 +1,64 @@
+* {
+  text-align: center;
+}
+.container {
+  height: 200px;
+  width: 500px;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: row;
+
+  /* ye main axis ke liye use hota hai  like space-around, space-between, space-evenly, center, etc */
+  /* justify-content: space-evenly; */
+
+  /* yhan pe size of items fix ho jate hain and adjust kr lete hain a/t screen window size  */
+
+  flex-wrap: wrap;
+
+  /* yhan humlog cross axis alignment ko alter krte hain like flex-start, flex-end, center, stretch  */
+  /* agr height width box ka define hai to stretch kaam nahi krega */
+
+  /* align-items: baseline; */
+
+  /* ye shorthand prop hai jisse flex-direction and flex-wrap sath me use kr skte hain  */
+  /* flex-flow: row nowrap; */
+
+  /* flex line ko align krne ke liye use hota hai  */
+
+  /* align-content: center; */
+}
+.container > div {
+  height: 60px;
+  width: 60px;
+}
+.box1 {
+  /* height: 50px;
+            width: 70px; */
+  background-color: green;
+}
+
+.box2 {
+  /* height: 60px;
+            width: 90px; */
+  background-color: blue;
+  flex-basis: 200px;
+  
+}
+
+.box3 {
+  /* height: 70px;
+            width: 100px; */
+  background-color: hotpink;
+  /* flex-grow: 1; */
+}
+.box4 {
+  /* height: 50px;
+            width: 90px; */
+  background-color: purple;
+  /* flex-shrink: 5; */
+}
+.box5 {
+  /* height: 50px;
+            width: 100px; */
+  background-color: blueviolet;
+}

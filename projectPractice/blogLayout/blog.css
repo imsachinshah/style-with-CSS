@@ -1,0 +1,90 @@
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrapper{
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-bottom: -2rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1fr, auto, 1fr);
+    grid-template-areas: 
+    'hd hd hd'
+    'ct ct sd'
+    'ft ft ft';
+}
+.header{
+    grid-area: hd;
+    display: flex;
+    /* max-width: 100%; */
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: end;
+    justify-content: space-between;
+    padding: 0 2rem 0 2rem;
+    margin: 2rem 0 2rem;
+    ol, ul {
+        margin-left: 2rem;  
+    }
+}
+.content{
+    grid-area: ct;
+    padding: 2rem 1rem 0 1rem;
+    margin-bottom: 2rem;
+}
+.sidebar{
+    grid-area: sd;
+    padding: 2rem 2rem 0 1rem;
+}
+.about{
+    border: 2px black;
+    border-radius: 2px;
+    background-color: rgb(223, 220, 220);
+    padding: 1rem;
+}
+.archived{
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+    padding-right: 1rem;
+    a{
+        /* font-style: italic; */
+        padding-bottom: 0.1rem;
+        display: block;
+
+    }
+}
+.lisence{
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+    padding-right: 1rem;
+    a{
+        /* font-style: italic; */
+        padding-bottom: 0.1rem;
+        display: block;
+
+    }
+}
+.foot{
+    grid-template-areas: ft;
+    margin-bottom: 2rem;
+
+    button{
+        margin-left: 2rem;
+        font-size: 1rem;
+        padding: .4rem;
+        border: 2px solid;
+        border-radius: 1rem;
+        background-color: white;
+    }
+    button:first-of-type{
+        /* background-color: orange; */
+        border-color: orange;
+    }
+    button:last-of-type{
+        border-color: green;
+    }
+}

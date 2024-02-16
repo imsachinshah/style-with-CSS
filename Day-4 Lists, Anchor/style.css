@@ -6,10 +6,10 @@ h1 {
 ul {
   /* list-style-type: none; */
   list-style-position: inside;
-  /* list-style-image: url(favicon.png); */
+  list-style-image: url(favicon.png);
   display: inline-block;
   margin-bottom: 40px;
-  line-break: strict;
+  line-break: normal;
 }
 li.ul {
   display: inline;
@@ -19,12 +19,12 @@ li.ul {
   border-width: 1;
   border-color: blue;
   border-style: solid;
-  border-radius: 50%;
+  /* border-radius: 50%; */
   margin: 10px;
 }
 
 ol {
-  line-break: loose;
+  line-break: strict;
   background-color: pink;
   /* display: inline-block; */
   text-indent: 10px;

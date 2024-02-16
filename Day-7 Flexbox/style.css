@@ -40,7 +40,7 @@
 .box2 {
   /* height: 60px;
             width: 90px; */
-  background-color: blue;
+  background-color: rgb(128, 128, 148);
   flex-basis: 200px;
   
 }
